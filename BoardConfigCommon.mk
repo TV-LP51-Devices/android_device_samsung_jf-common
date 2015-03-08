@@ -181,6 +181,6 @@ WIFI_DRIVER_FW_PATH_STA := "/system/etc/wifi/bcmdhd_sta.bin"
 
 # Misc
 SYMMETRY := true
-NO_BLOCK_OTA := true
+BLOCK_BASED_OTA := false
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
