@@ -34,4 +34,7 @@
     <!-- Doze: shake accelerometer threshold -->
     <integer name="doze_shake_accelerometer_threshold">10</integer>
 
+   <!-- Doze: pulse parameter - once faded in, how long does it stay visible? -->
+    <integer name="doze_pulse_duration_visible">20000</integer>
+
 </resources>
