@@ -182,4 +182,7 @@ SYMMETRY := true
 BLOCK_BASED_OTA := false
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
+
+# Enable workaround for slow rom flash
+BOARD_SUPPRESS_SECURE_ERASE := true
 COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
