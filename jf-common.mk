@@ -286,3 +286,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Common Qualcomm
 $(call inherit-product, device/samsung/qcom-common/qcom-common.mk)
+
+# Filesystem management tools
+PRODUCT_PACKAGES += \
+    fsck.f2fs \
+    mkfs.f2fs
