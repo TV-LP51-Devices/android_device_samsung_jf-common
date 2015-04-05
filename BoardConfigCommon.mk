@@ -182,6 +182,7 @@ SYMMETRY := true
 BLOCK_BASED_OTA := false
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
+WITH_DEXPREOPT_BOOT_IMG_ONLY := true
 
 # Enable workaround for slow rom flash
 BOARD_SUPPRESS_SECURE_ERASE := true
