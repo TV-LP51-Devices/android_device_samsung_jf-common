@@ -337,7 +337,7 @@
         <item>evdo:4094,87380,262144,4096,16384,262144</item>
     </string-array>
 
-    <!-- Hardware keys on/off option -->
-    <bool name="config_hwKeysPref">true</bool>
+    <!-- Hardware keys on/off option
+    <bool name="config_hwKeysPref">true</bool> -->
 
 </resources>
